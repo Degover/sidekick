@@ -1,4 +1,6 @@
-namespace sidekick
+using Sidekick.View.Impl;
+
+namespace Sidekick
 {
     internal static class Program
     {
@@ -11,7 +13,7 @@ namespace sidekick
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }
