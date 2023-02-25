@@ -5,8 +5,8 @@ namespace Sidekick.Presenter
 {
     internal class ClockPresenter
     {
-        private IClockView _view;
-        private Timer _timer;
+        private readonly IClockView _view;
+        private readonly Timer _timer;
 
         public ClockPresenter(IClockView view)
         {

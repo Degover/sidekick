@@ -4,11 +4,11 @@ namespace Sidekick.Presenter
 {
     internal class MainPresenter
     {
-        private IMainView view;
+        private readonly IMainView _view;
 
         public MainPresenter(IMainView view)
         {
-            this.view = view;
+            this._view = view;
         }
     }
 }
