@@ -1,6 +1,6 @@
 ﻿using Sidekick.Presenter;
 
-namespace Sidekick.View.Impl
+namespace Sidekick.View
 {
     public partial class ClockUserControl : UserControl, IClockView
     {

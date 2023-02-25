@@ -1,4 +1,4 @@
-﻿namespace Sidekick.View.Impl
+﻿namespace Sidekick.View
 {
     partial class ClockUserControl
     {

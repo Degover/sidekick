@@ -1,4 +1,4 @@
-using Sidekick.View.Impl;
+using Sidekick.View;
 
 namespace Sidekick
 {

@@ -1,4 +1,4 @@
-﻿namespace Sidekick.View.Impl
+﻿namespace Sidekick.View
 {
     partial class MainForm
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.rootPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.clockUserControl = new Sidekick.View.Impl.ClockUserControl();
+            this.clockUserControl = new Sidekick.View.ClockUserControl();
             this.rootPanel.SuspendLayout();
             this.SuspendLayout();
             // 
