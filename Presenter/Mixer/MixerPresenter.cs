@@ -1,4 +1,8 @@
-﻿using Sidekick.View.Mixer;
+﻿using Sidekick.Audio;
+using Sidekick.View.Mixer;
+using System.Data;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace Sidekick.Presenter.Mixer
 {
@@ -9,6 +13,8 @@ namespace Sidekick.Presenter.Mixer
         public MixerPresenter(IMixerView view)
         {
             _view = view;
+
+            Class1.OtherTest();
         }
     }
 }

@@ -30,6 +30,7 @@
         {
             this.rootPanel = new System.Windows.Forms.TableLayoutPanel();
             this.clockUserControl = new Sidekick.View.ClockUserControl();
+            this.mixerUserControl = new Sidekick.View.Mixer.MixerUserControl();
             this.rootPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,6 +40,7 @@
             this.rootPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.rootPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.rootPanel.Controls.Add(this.clockUserControl, 0, 0);
+            this.rootPanel.Controls.Add(this.mixerUserControl, 1, 0);
             this.rootPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rootPanel.Location = new System.Drawing.Point(0, 0);
             this.rootPanel.Name = "rootPanel";
@@ -56,6 +58,16 @@
             this.clockUserControl.Name = "clockUserControl";
             this.clockUserControl.Size = new System.Drawing.Size(73, 29);
             this.clockUserControl.TabIndex = 0;
+            // 
+            // mixerUserControl
+            // 
+            this.mixerUserControl.BackColor = System.Drawing.Color.Transparent;
+            this.mixerUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mixerUserControl.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.mixerUserControl.Location = new System.Drawing.Point(82, 3);
+            this.mixerUserControl.Name = "mixerUserControl";
+            this.mixerUserControl.Size = new System.Drawing.Size(715, 444);
+            this.mixerUserControl.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -75,5 +87,6 @@
 
         private TableLayoutPanel rootPanel;
         private ClockUserControl clockUserControl;
+        private Mixer.MixerUserControl mixerUserControl;
     }
 }

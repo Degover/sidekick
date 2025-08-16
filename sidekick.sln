@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick", "Sidekick.csproj", "{61B78162-A666-4C92-9752-4E010C009C65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Audio", "..\Sidekick.Audio\Sidekick.Audio.csproj", "{063A6B16-4E16-42A7-84FA-B3F7D169BB79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61B78162-A666-4C92-9752-4E010C009C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B78162-A666-4C92-9752-4E010C009C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B78162-A666-4C92-9752-4E010C009C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063A6B16-4E16-42A7-84FA-B3F7D169BB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063A6B16-4E16-42A7-84FA-B3F7D169BB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063A6B16-4E16-42A7-84FA-B3F7D169BB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063A6B16-4E16-42A7-84FA-B3F7D169BB79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
